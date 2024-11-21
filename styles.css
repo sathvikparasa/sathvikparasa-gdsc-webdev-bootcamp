@@ -1,0 +1,32 @@
+.main
+{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    color: white;
+}
+#pic
+{
+    height: 150px;
+    width: auto;
+    border-color: white;
+    border-radius: 10px;
+}
+body
+{
+    overflow: hidden;
+    background-image: linear-gradient(rgb(132, 23, 169), rgb(149, 94, 227));
+}
+#button{
+    text-decoration: none;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+#button:hover
+{
+    background-color: white;
+    color: blue;
+}
